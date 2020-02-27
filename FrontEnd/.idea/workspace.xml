@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c84a381f-3bf4-467e-9a24-d23f41b7c634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/cars-detail/cars-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cars-detail/cars-detail.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cars-detail/cars-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cars-detail/cars-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cars/cars.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cars/cars.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cars/cars.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cars/cars.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dash/dash-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dash/dash.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/dashboard.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/dashboard.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/dashboard.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/dashboard.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/Car.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/CarPag.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/nav/nav.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found/not-found.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found/not-found.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found/not-found.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found/not-found.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/auth/NOT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/auth/auth.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/authentication/authentication.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/authentication/authentication.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/cars/cars.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/cars/cars.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/error.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/jwt.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/users/users.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/users/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users-detail/users-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users-detail/users-detail.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users-detail/users-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users-detail/users-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/users.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/users.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/users.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/users/users.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/js/coreui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_breadcrumb-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_callout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_dropdown-menu-right.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_ie-custom-properties.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_layouts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_progress-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_subheader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_switches.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_vendors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/_widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/coreui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/layouts/_default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_card-accent.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_ltr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_sidebar-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_switches.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_themes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/breadcrumb-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/callout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/dropdown-menu-right.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/ie-custom-properties.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/layouts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/progress-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/subheader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/switches.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/vendors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/partials/widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_center.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_brand-colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_options.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_printing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/_z-index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_buttons-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_navs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_progress-bars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_shared.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_subheader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_switches.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/variables/components/_tooltips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/vendors/_perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coreui/scss/vendors/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Xr8A9j4mwIaHAxqYfhk3DQHf4P" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/service/cars" />
+      <recent name="$PROJECT_DIR$/src/app/service/authentication" />
+      <recent name="$PROJECT_DIR$/src/app/service/auth" />
+      <recent name="$PROJECT_DIR$/src/app/auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/app/models" />
+      <recent name="$PROJECT_DIR$/src/app/service" />
+      <recent name="$PROJECT_DIR$/src/app/Interfaces" />
+      <recent name="$PROJECT_DIR$/src/assets/coreui" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (fronted2)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (fronted2)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c84a381f-3bf4-467e-9a24-d23f41b7c634" name="Default Changelist" comment="" />
+      <created>1581792706982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581792706982</updated>
+      <workItem from="1581792708293" duration="2589000" />
+      <workItem from="1581808036466" duration="2978000" />
+      <workItem from="1581813064615" duration="73315000" />
+      <workItem from="1582212493710" duration="1614000" />
+      <workItem from="1582557564791" duration="1448000" />
+      <workItem from="1582740773547" duration="449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

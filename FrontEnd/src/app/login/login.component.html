@@ -1,0 +1,47 @@
+<div class="app-body">
+  <main class="main d-flex align-items-center">
+    <div class="container">
+      <div class="row vertical">
+        <div class="col-md-8 mx-auto">
+          <div *ngIf="error" class="alert alert-warning" role="alert">
+            {{error}}
+          </div>
+          <div class="card-group shadow">
+            <div class="card p-4">
+              <div class="card-body">
+                <img src="../../assets/logo.png" class="rounded mx-auto d-block img-fluid mb-5" width="300"/>
+                <form novalidate #LoginUser = "ngForm" (ngSubmit) = "login2(username1, password1)" >
+
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    </div>
+                    <input type="email" class="form-control" [ngClass]="{ 'is-invalid': username1.invalid && username1.touched || LoginUser.submitted && username1.invalid}" required email placeholder="Email" #username1="ngModel" [email]="true" [(ngModel)]="username" [ngModelOptions]="{standalone: true}">
+
+                    <div *ngIf="username1.invalid && username1.touched || LoginUser.submitted && username1.invalid"  class="invalid-feedback" >
+                      Por favor rellene correctamente el email
+                    </div>
+                  </div>
+                  <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                    </div>
+                    <input  type="password" [ngClass]="{ 'is-invalid': password1.touched && password1.invalid || LoginUser.submitted && password1.invalid}" required minlength="6" class="form-control" placeholder="Contraseña" #password1="ngModel" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" required>
+                    <div *ngIf="password1.invalid && password1.touched || LoginUser.submitted && password1.invalid"  class="invalid-feedback" >
+                      Por favor rellene correctamente la contraseña
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <button type="submit" class="btn btn-primary px-4" [disabled]="username1.invalid || password1.invalid">Iniciar sesión</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

@@ -1,0 +1,56 @@
+<!-- Nav COREUI LTL -->
+
+<div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
+  <ul class="c-sidebar-nav">
+    <li class="c-sidebar-nav-title">Bienvenido {{currentUser.name}}</li>
+    <li class="c-sidebar-nav-item">
+      <a class="c-sidebar-nav-link" routerLink="/dashboard" routerLinkActive="c-active" [routerLinkActiveOptions]="{exact: true}">
+        <i class="fas fa-home c-sidebar-nav-icon"></i>Inicio
+      </a>
+    </li>
+    <li class="c-sidebar-nav-item">
+      <a class="c-sidebar-nav-link" routerLink="/dashboard/cars/" routerLinkActive="c-active" [routerLinkActiveOptions]="{exact: true}">
+        <i class="fas fa-car c-sidebar-nav-icon"></i>Coches
+      </a>
+    </li>
+
+    <li class="c-sidebar-nav-title">Configuración</li>
+    <li class="c-sidebar-nav-item">
+      <a class="c-sidebar-nav-link" routerLink="/dashboard/users/" routerLinkActive="c-active" [routerLinkActiveOptions]="{exact: true}">
+        <i class="fas fa-users c-sidebar-nav-icon"></i>Usuarios
+      </a>
+    </li>
+  </ul>
+
+  <li class="c-sidebar-nav-item list-none">
+    <a class="c-sidebar-nav-link c-sidebar-nav-link-danger" style="cursor: pointer" (click)="logout()">
+      <i class="fas fa-door-open c-sidebar-nav-icon"></i>
+      Cerrar sesión
+    </a>
+  </li>
+</div>
+
+<div class="c-wrapper">
+  <header class="c-header c-header-light c-header-fixed c-header-with-subheader">
+    <button class="c-header-toggler c-class-toggler mfs-3 d-lg-none" type="button" data-target="#sidebar" data-class="c-sidebar-show" responsive="true">
+      <i class="fas fa-bars c-icon c-icon-lg"></i>
+    </button>
+    <a class="c-header-brand mx-auto" href="#">
+      <img src="../../assets/logo.png" class="c-sidebar-brand-full" width="200" height="46">
+    </a>
+  </header>
+
+  <div class="c-body">
+    <main class="c-main">
+      <div class="container-fluid">
+        <router-outlet></router-outlet>
+      </div>
+
+    </main>
+  </div>
+
+</div>
+
+
+
+

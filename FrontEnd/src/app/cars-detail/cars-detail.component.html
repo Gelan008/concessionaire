@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="col-12">
+    <div *ngIf="error" class="alert alert-warning" role="alert">
+      {{error}}
+    </div>
+    <div class="card">
+      <div class="card-header"><strong>Coche {{car.title}}</strong></div>
+      <div class="card-body">
+        <form #CarDetail = "ngForm" (ngSubmit) = "method == 1 ? create(CarDetail) : edit(CarDetail)">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input [(ngModel)]="car.title" [ngClass]="{ 'is-invalid': carName.touched && carName.invalid}" #carName="ngModel" class="form-control" id="name" name="name" type="text" placeholder="Nombre" required>
+            <div *ngIf="carName.touched && carName.invalid"  class="invalid-feedback" >
+              Rellene el nombre
+            </div>
+
+          </div>
+          <div class="form-group">
+            <label for="description">Descripción</label>
+            <textarea [(ngModel)]="car.description" [ngClass]="{ 'is-invalid': carDescription.touched && carDescription.invalid}" #carDescription="ngModel" class="form-control" id="description" name="description" rows="5" placeholder="Descripción" required></textarea>
+            <div *ngIf="carDescription.touched && carDescription.invalid"  class="invalid-feedback" >
+              Rellene la descripción
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="price">Precio</label>
+            <div class="col-lg-3 col-12 pl-0">
+              <input [(ngModel)]="car.price" [ngClass]="{ 'is-invalid': carPrice.touched && carPrice.invalid}" #carPrice="ngModel" class="form-control" id="price" type="number" name="price" placeholder="Precio" required>
+              <div *ngIf="carPrice.touched && carPrice.invalid"  class="invalid-feedback" >
+                Rellene el precio
+              </div>
+
+            </div>
+          </div>
+          <div class="card-footer p-4">
+            <div class="row">
+              <button class="btn btn-primary col-md-4 col-5" type="submit" [disabled]="CarDetail.invalid">{{method == 2 ? 'Guardar' : 'Crear'}}</button>
+              <button class="btn btn-secondary offset-md-4 col-md-4 col-5 offset-2" type="button" (click)="cancel()">Cancelar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

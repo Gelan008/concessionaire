@@ -1,0 +1,18 @@
+@import "../../assets/coreui/custom";
+
+.list-none{
+  list-style: none;
+}
+
+.c-sidebar{
+  background: #323232;
+}
+
+.c-main{
+  padding-top: 4rem;
+}
+
+.c-active{
+  background: $primary !important;
+  color: white !important;
+}
